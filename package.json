@@ -2,8 +2,8 @@
   "name": "afrolyrics",
   "version": "1.0.0",
   "author": "Meke Omamuli Duke Ladna",
+  "repository": "https://github.com/andela-lmeke/afrolyrics",
   "description": "A web community for African lyrics: post, edit, view, comment operations available ",
-  "license": "MIT",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,18 @@
     "body-parser": "^1.10.1",
     "express": "^4.10.8",
     "method-override": "^2.3.1",
-    "mongoose": "^3.8.21"
-  }
+    "mongoose": "^3.8.21",
+    "passport" : "~0.1.17",         
+    "passport-local" : "~0.1.6",
+    "connect-flash" : "~0.1.1",     
+    "bcrypt-nodejs" : "latest",
+    "cookie-parser": "~1.0.0",
+    "morgan": "~1.0.0",
+    "express-session": "~1.0.0" 
+
+  },
+  "bugs": {
+    "url": "https://github.com/andela-lmeke/afrolyrics/issues"
+  },
+  "homepage": "https://andela-lmeke.github.io/afrolyrics"
 }
