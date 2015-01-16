@@ -1,0 +1,27 @@
+{
+  "name": "mean_spa",
+  "version": "1.0.0",
+  "authors": [
+    "Meke Ladna <ladna.meke@andela.co>"
+  ],
+  "description": "Tutorial on Folder Structure of MEAN",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+        "bootstrap": "latest",
+        "font-awesome": "latest",
+        "animate.css": "latest",
+        "angular": "latest",
+        "angular-route": "latest"   
+    }
+}
